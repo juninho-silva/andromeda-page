@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+* {
+    box-sizing: border-box;
+    color: white;
+  }
+  
+  body {
+    padding: 0 !important;
+    margin: 0 !important;
+    font-family: 'Open Sans', sans-serif;
+    background: linear-gradient(0, #07072b, #000000);
+  }
+  
+  /* Style the header */
+  .container {
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+  }
+
+  p {
+    font-size: 14px !important;
+    padding-left: 14px;
+    padding-right: 14px;
+  }
+  
+  /* Container for flexboxes */
+  .row {
+    display: -webkit-flex;
+    display: flex;
+  }
+  
+  /* Create three unequal columns that sits next to each other */
+  .column {
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+  }
+
+  .btn {
+    padding: 3px;
+    font-size: 25px;
+    background-color: rgb(255, 115, 0);
+    font-family: 'Source Code Pro', sans-serif;
+    color: black;
+    text-transform: uppercase;
+    text-decoration: dashed;
+    border-radius: 9px;
+    outline: none;
+    border: 1px solid;
+    -webkit-box-shadow: 0px 0px 10px rgb(59, 59, 59);
+	  -moz-box-shadow: 0px 0px 10px rgb(59, 59, 59); 
+	  box-shadow: 0px 0px 10px rgb(59, 59, 59);
+    width: 203px;
+    height: 100px;
+  }
+
+  .btn:active {
+    -webkit-box-shadow: 0px 0px 10px rgb(59, 59, 59) inset;
+	  -moz-box-shadow: 0px 0px 10px rgb(59, 59, 59) inset; 
+	  box-shadow: 0px 0px 10px rgb(59, 59, 59) inset;
+  }
+  
+  /* Style the footer */
+  .footer {
+    padding: 10px;
+    text-align: center;
+  }
+
+  /* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background:  rgb(197, 89, 0);
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(1, 9, 36); 
+  }
